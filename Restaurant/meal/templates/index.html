@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{%block content%}
+
+<div class='d-flex align-content-center justify-align-center flex-wrap gap'>
+{% for i in meals.categories %}
+
+
+
+ <div class=" m-3 card  col-4 " style="width: 29rem;">
+    <div><img src="{{i.strCategoryThumb}}" class="card-img-top" alt="..."></div>
+    <div class="card-body justify-content-center">
+      <h5 class="card-id align-center ">{{i.idCategory}}</h5>
+      <h3 class="card-title">{{i.strCategory}}</h3>
+      <p class="card-text">{{ i.strCategoryDescription | truncatewords:10 }} </p>
+    </div>
+  </div> 
+
+  
+{% endfor %}
+</div> 
+
+
+
+{% endblock %}

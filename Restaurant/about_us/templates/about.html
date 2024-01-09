@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+ {% load static %}
+
+ {% block content %}
+
+ <!--About Section-->
+ <section class="about bg-dark" id="abo">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 ">
+          <img id="hei"src="{% static 'images/hasan.png' %}" class="img-fluid">
+        </div>
+        <div class="col-lg-6 text-white">
+          <h2 id="am">About Me</h2>
+          <h4 id="name">My name is Jahid</h4>
+          <h2> I am the CEO of Okazaki Restaurant </h2>
+
+          <p>I am studing Bsc Engg. in Biomedical Engineering at Chittagong University of Engineering and Technology(CUET)</p>
+          <p>A coding Enthusiast and very much interested  in Artificial Intelligence (AI) and Machine Learning (ML) and Want to use these tools in Healthcare and Life Sciences. </p>
+          <p> As a biomedical student with a passion for technology, my career objective is to bridge the gap between medicine and technology by utilizing my knowledge and skills in both fields</p>
+          <p>My goal is to leverage my expertise in biomedical science, data analysis, and programming to create tools that can improve patient care, optimize clinical workflows, and advance medical research</p>
+
+          <ul class="list-inline">
+            <li class="list-inline-item" ><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li class="list-inline-item"><a href="https://github.com/jahid-cuet"><i class="fa-brands fa-github"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.linkedin.com/in/md-jahid-hasan-041151265/"><i class="fa-brands fa-linkedin"></i></a></li>
+           </ul>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+{% endblock content %}
+
+     
+

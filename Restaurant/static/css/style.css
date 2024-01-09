@@ -1,0 +1,100 @@
+
+/* header section */
+header{
+
+   
+    
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(jahid.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    background-attachment: fixed;
+    color:white;
+    text-align: left;
+    }
+      .content-box a{
+        color:white;
+      
+    
+    }
+     .content-box{
+    
+        margin-top: 300px;
+        margin-right:900px;
+     }
+     .content-box h4{
+        font-size:30px;
+        color:rgb(199, 160, 167);
+    
+        
+     }
+     .content-box h1{
+        font-size:52px;
+        
+        
+     }
+     .content-box a{
+        color:#fff;
+        text-decoration:none;
+        border:2px solid #fff;
+        border-radius:20px;
+        padding:5px 25px;
+     }
+     .content-box a:hover{
+    
+    color:black;
+        background:white;
+            transition:0.5s all;
+        }
+    
+    
+     #m{
+            color:rgb(18, 12, 63);
+            
+         
+    
+     }
+     
+     #am{
+        color:#ca9d9d;
+        margin-bottom:40px;
+    
+     }
+     #name{
+        color:rgb(110, 174, 154);
+        margin-bottom:20px;
+    
+     }
+     
+     .lis{
+        font-size:50px;
+        margin-left:40px;
+        
+     }
+     #l{
+        margin-top:60px;
+     }
+     #hei{
+       height:700px;
+       width:550px;
+       margin-left: 30px;
+     }
+     .list-inline-item{
+        font-size:50px;
+        padding:15px;
+        margin-top:25px;
+        color:rgb(69, 116, 135)
+     }
+     .list-inline-item:hover{
+        
+        color:rgb(104, 143, 26)
+     }
+     .im{
+        font-size: medium;
+     }
+     .about{
+        padding-top:70px;
+        padding-bottom:70px;
+    
+     }
